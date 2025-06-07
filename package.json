@@ -1,0 +1,36 @@
+{
+  "name": "@studiisapp/beta",
+  "version": "1.0.0",
+  "description": "",
+  "author": "studiisapp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studiisapp/beta"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.mjs",
+      "require": "./dist/client.cjs"
+    }
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.1",
+  "dependencies": {
+    "@better-fetch/fetch": "^1.1.18",
+    "@biomejs/biome": "^1.9.4",
+    "better-auth": "^1.2.8",
+    "unbuild": "^3.5.0",
+    "zod": "^3.25.56"
+  }
+}
