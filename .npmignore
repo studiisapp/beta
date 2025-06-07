@@ -1,2 +1,4 @@
 .turbo
+.idea
 src
+build.config.ts

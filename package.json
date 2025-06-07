@@ -1,9 +1,8 @@
 {
   "name": "@studiisapp/beta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "studiisapp",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/studiisapp/beta"
